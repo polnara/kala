@@ -15,6 +15,9 @@ class Calculator{
 		&&	and
 		||	or
 		==	equals
+		%   modulus
+		/   division
+		
 	*/
 	public static void main(String[] args){
 		int i = 100;
