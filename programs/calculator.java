@@ -41,7 +41,7 @@ class Calculator{
 		int k = 100;
 		
 		
-		// Method call
+		
 		int result1 = add(i , j);
 		System.out.println("additon result :: ["+ i + ","+j+"] = "+result1);
 		
@@ -49,7 +49,7 @@ class Calculator{
 		System.out.println("additon result :: ["+ i + ","+k+"] = "+result5);
 		
 		int result6 = add( j, k);
-		System.out.println("additon result :: ["+ j + ","+k+"] = "+result);
+		System.out.println("additon result :: ["+ j + ","+k+"] = "+result6);
 
 		int result2 = i - j;
 		System.out.println("Substraction result :: ["+ i + ","+j+"] = "+result2);
