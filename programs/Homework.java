@@ -4,7 +4,7 @@ class Homework {
         int b = 10;
         int c = 15;
         int d = 5;
-         int result1 = Division(a, b);
+        int result1 = Division(a, b);
         System.out.println("Division = " +result1);
         int result2  = multiplication(a, b, c, d);
         System.out.println("multiplication = "+result2);

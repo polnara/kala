@@ -17,6 +17,7 @@ class Calculator{
 		--	decrement
 		&&	and
 		||	or
+		
 		==	equals
 		%   modulus
 		/   division
