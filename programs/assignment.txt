@@ -1,0 +1,7 @@
+tax_calculation
+
+	1Lac - 2Lac		->	5%
+	2Lac -	5Lac	->	10%
+	5Lac - 10Lac	->	15%			More than 60 Years	->	5%
+	10Lac or more than	->	20%		More than 60 Years	->	10%
+	

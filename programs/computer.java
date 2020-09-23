@@ -10,6 +10,12 @@ class Computer {
 		remainder(100,15);
 		greaterthan(100,75);
 		lessthan(125,150);
+		
+		boolean oddResult = OddOrEven(13);
+		System.out.println("Print odd result = " + oddResult );
+		
+		boolean evenResult = OddOrEven(18);
+		System.out.println("Print even result = " + evenResult);
 	}
 	
 	
@@ -22,24 +28,38 @@ class Computer {
 		int multiResult = a * b;
 		System.out.println("Multipication is =========== "+multiResult);
 	}
-     public static void division(int a, int b){
+    public static void division(int a, int b){
 		 int divisionresult = a/b;
 		 System.out.println("Division result is ====="+divisionresult);
 	 }
-	  public static void substraction(int a, int b){
+	public static void substraction(int a, int b){
 		int substractionresult = a-b;
 		System.out.println("substraction result is----"+substractionresult);
-			}
-		public static void remainder(int a, int b){
-			int remainderresult =a%b;
-			System.out.println("remainder result is ------"+remainderresult);
-		}
-		public static void greaterthan(int a, int b){
+	}
+	
+	public static void remainder(int a, int b){
+		int remainderresult =a%b;
+		System.out.println("remainder result is ------"+remainderresult);
+	}
+	
+	public static void greaterthan(int a, int b){
 		boolean greaterthanresult = a>b;
-			System.out.println("greaterthan result is*******"+greaterthanresult);
+		System.out.println("greaterthan result is*******"+greaterthanresult);
+	}
+	
+	public static void lessthan(int a, int b){
+		boolean lessthanresult = a<b;
+		System.out.println("lessthan result is-----"+lessthanresult);
+	}
+	
+	public static boolean OddOrEven(int number){
+		int remainder = number % 2;
+		
+		if(remainder == 0 ){
+			return true;
+		}else if(remainder == 1){
+			return false;
 		}
-		public static void lessthan(int a, int b){
-			boolean lessthanresult = a<b;
-			System.out.println("lessthan result is-----"+lessthanresult);
-		}
+		return false;
+	}
 }

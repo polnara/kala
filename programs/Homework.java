@@ -10,6 +10,8 @@ class Homework {
         System.out.println("multiplication = "+result2);
         int result3 = remainder(a, b);
         System.out.println("remainder = "+result3);
+		
+		int jobResult = runBatchJob();
     
     }
     public static int Division(int a, int b){
@@ -21,4 +23,9 @@ class Homework {
     public static int remainder(int a, int b){
         return a%b;
     }
+	
+	public static int runBatchJob(){
+		System.out.println("It is test method");
+		return 10;	
+	}
 }
