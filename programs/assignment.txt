@@ -1,3 +1,76 @@
+creat a new method for each assignment
+
+Tax calculation using method call
+
+Switch condition : return nuber for the day
+"sunday"	->	1
+"Friday"	->	6
+"Wednsday"	->	4
+
+add all number from the given range using for loop
+	4 ,10 -> 4 + 5 + 6 +7 + 8 + 9 +10 =>
+	7, 9	->	7 + 8 +9 => 24
+	3 ,7	->	3 + 4 + 5 + 6 + 7 = 25
+
+add all number from the given range using while loop
+
+
+reverse a number using while
+
+
+
+take a new class
+	create a seperate method 
+	
+	reverse(int num){
+		Logic Here
+		2343434 %10 ->4
+		2343434	/10	->234343
+		4 * 10 = 40
+		
+		234343 %10	->	3
+		234343 /10	->	23434
+		40+3*10 = 430
+		
+		23434 % 10 ->	4
+		23434 / 10	->	2343
+		430+4 * 10 = 4340
+		
+		2343 %10 ->
+		2343 /10 ->
+		43430
+		
+		return reverseNumber;
+	}
+		
+		
+		2343434 - > 4343432
+		56342	->	24365
+		8986532	->	2356898
+		
+		10)4(0
+		   0
+		   --
+		   4
+			
+		10)2343434(23434
+		   20
+		   ---
+			34
+			30
+			--
+			 43
+			 40
+			 --
+			  34
+			  30
+			  --
+			   44
+			   40
+			   --
+				4
+			
+
 tax_calculation
 
 	1Lac - 2Lac		->	5%
