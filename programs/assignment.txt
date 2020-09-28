@@ -1,8 +1,10 @@
 creat a new method for each assignment
 
+// done
 Tax calculation using method call
 
-Switch condition : return nuber for the day
+// done
+Switch condition : return nuber for the day	
 "sunday"	->	1
 "Friday"	->	6
 "Wednsday"	->	4
@@ -12,13 +14,11 @@ add all number from the given range using for loop
 	7, 9	->	7 + 8 +9 => 24
 	3 ,7	->	3 + 4 + 5 + 6 + 7 = 25
 
+// pending
 add all number from the given range using while loop
 
-
+// pending
 reverse a number using while
-
-
-
 take a new class
 	create a seperate method 
 	
@@ -75,6 +75,16 @@ tax_calculation
 
 	1Lac - 2Lac		->	5%
 	2Lac -	5Lac	->	10%
-	5Lac - 10Lac	->	15%			More than 60 Years	->	5%
-	10Lac or more than	->	20%		More than 60 Years	->	10%
+	5Lac - 10Lac	->	15%			More than 65 Years	->	5%
+	10Lac or more than	->	20%		More than 65 Years	->	10%
+	
+	// pending
+	use return statement
+	test all senarios for kalatest
+	
+	
+	
+	
+	
+	
 	

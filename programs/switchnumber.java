@@ -1,15 +1,20 @@
 class switchnumber {
     public static void main(String[] args) {
-    System.out.println(getnumber("Sunday"));
-    System.out.println(getnumber("Friday"));
-    System.out.println(getnumber("Wednesday"));
+		int num = getnumber("asdf");
+		if(num == 10){
+			System.out.println("Invalid Day");
+		}else{
+			System.out.println(num);
+
+		}
+		System.out.println(getnumber("Friday"));
+		System.out.println(getnumber("Wednesday"));
     }
     public static int getnumber(String day){
         int number = 0;
         switch (day) {
             case "Monday":
                 number = 1;
-                
                 break;
             case "Tuesday":
                 number  = 2;
@@ -31,6 +36,7 @@ class switchnumber {
                 break;
 
             default:
+				number = 10;
                 break;
         }
         return number;

@@ -2,10 +2,11 @@ class kalatest {
     public static void main(String[] args) {
         int age = 30;
         int salary = 1000000;
-        int tax = salary * 0/100;
-        Tax(age, salary, tax);
+        
+        Tax(age, salary);
     }
-    public static void Tax(int age, int salary, int tax){
+    public static void Tax(int age, int salary){
+		int tax = 0;
         if (salary >= 100000 && salary < 200000){
             tax = salary * 5/100;
 

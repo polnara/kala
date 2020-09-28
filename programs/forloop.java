@@ -1,3 +1,4 @@
+// It not recommanded implemetation. Use methods for reusablility. repeated code put it in method and call it with different values; 
  class forloop {
      public static void main(String[] args) {
          int num =0;
