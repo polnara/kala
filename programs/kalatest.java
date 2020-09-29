@@ -7,6 +7,8 @@ class kalatest {
         Tax(age, salary);
         z = Tax2(65,1400000);
         System.out.println("tax is " +z);
+		
+		Tax2(20,100000)
     }
     public static void Tax(int age, int salary){
 		int tax = 0;
