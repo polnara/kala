@@ -82,9 +82,24 @@ tax_calculation
 	use return statement
 	test all senarios for kalatest
 	
+	Nested for loop
+	===============
+	
+	4 ,7 =>4*1=4	5	6,	7
+			4*2=8
+	
+	5,8
+	3,8
+	2,9
 	
 	
+	*
+	*	*
+	*	*	*
+	*	*	*	*
 	
-	
-	
+			*
+		*	*	*
+	*	*	*	*	*
+*	*	*	*	*	*	*
 	
