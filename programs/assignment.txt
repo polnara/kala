@@ -103,3 +103,26 @@ tax_calculation
 	*	*	*	*	*
 *	*	*	*	*	*	*
 	
+	
+	calcualtor
+
+2 static variable
+a, b
+
+int add()
+int multiply()
+int substract();
+int divsion();
+
+
+10,40
+add=50
+multiply=400
+divsion=0
+substract=-30
+
+50,30
+add = 80
+multiply=1500
+divsion=1
+substract=20
