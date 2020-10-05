@@ -1,0 +1,11 @@
+
+methods
+========
+static methods can call in instance methods directly.
+instance methods cannot call in static method directly. we can call thourgh object only.
+
+variables
+=========
+static variables can access in instance method directly;
+instance variables cannot access in static methods directly. we can access thourgh object only.
+
