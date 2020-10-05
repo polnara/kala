@@ -1,4 +1,4 @@
-class kalatest {
+class kalatest{
     public static void main(String[] args) {
         int age = 30;
         int salary = 1000000;
@@ -8,7 +8,7 @@ class kalatest {
         z = Tax2(65,1400000);
         System.out.println("tax is " +z);
 		
-		Tax2(20,100000)
+		Tax2(20,100000);
     }
     public static void Tax(int age, int salary){
 		int tax = 0;

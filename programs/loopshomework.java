@@ -1,4 +1,4 @@
-class loopshomework {
+class LoopsHomework {
         public static void main(String[] args){
             doubleForloop(4,7);
             doubleForloop(5,8);
