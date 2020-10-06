@@ -5,9 +5,9 @@ class Department{
 	int budget = 500000;
 	
 	// Instance method. It doesn't have static. Instance methods called through object
-	public static int monthlySpent(){
+	public int monthlySpent(){
 		// non-static variable budget cannot be referenced from a static context
-		int monthlyBudget = budget / 12;
+		int monthlyBudget = budget/ 12;
 		return monthlyBudget;
 	}
 	
