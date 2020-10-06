@@ -126,3 +126,15 @@ add = 80
 multiply=1500
 divsion=1
 substract=20
+
+
+Student.java
+
+	// Harish Monthly Fee is 40000 
+	// Mahesh Monthly Fee is 80000
+	// Ganesh Monthly Fee is 50000
+	
+Tax calculation 
+	john 45 700000	->	john salary is 700000 and age is 45, so tax is 5000
+	Mical 75 900000	->	Mical salary is 900000 and age is 75, so tax is 10000
+	
