@@ -37,18 +37,19 @@ class Student{
 	
 	public static void main(String[] args){
 		Student std1 = new Student("Harish",10,500000,"Bengalore");
-		System.out.println("Monthly fee "+std1.monthlyFee());
+		System.out.println(std1.name+ " " + "Monthly fee is "+std1.monthlyFee());
 		
 		String n ="Mahesh";
 		int age = 12;
 		int fee = 700000;
 		String address = "Hyderbad";
 		Student std2 = new Student(n, age, fee, address);
-		
+		System.out.println(std2.name+ " Monthly fee is " +std2.monthlyFee());
 		n  = "Genesh";
 		age = 15;
 		fee = 600000;
 		address = "Tirupathi";
 		Student std3 = new Student(n,age, fee, address);
+		System.out.println(std3.name+ " Monthly fee is " + std3.monthlyFee());
 	}
 }
