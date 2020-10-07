@@ -1,4 +1,3 @@
-import java.util.jar.Attributes.Name;
 
 class Tax2 {
     String name;
