@@ -2,8 +2,8 @@ class Bank{
 	
 	public int amount ;
 	
-	public Bank(int amount){
-		this.amount = amount;
+	public Bank(int input){
+		this.amount = input;
 	}
 	
 	public void deposit(int depositAmount){

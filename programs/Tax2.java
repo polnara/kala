@@ -1,5 +1,7 @@
 
-class Tax2 {
+class Tax
+
+ {
     String name;
     int age;
     int salary;

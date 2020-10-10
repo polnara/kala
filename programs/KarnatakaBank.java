@@ -1,13 +1,9 @@
-class HDFCBank{
+ class KarnatakaBank {
 
-	Bank b;
+    SbiBank b;
 	
-	public HDFCBank(Bank b){
+	public KarnatakaBank(SbiBank b) {
 		this.b = b;
-	}
-
-	public HDFCBank(int startingBalance){
-		this.b.amount =startingBalance;
 	}
 	
 	public void withdraw(int amount){
@@ -21,7 +17,5 @@ class HDFCBank{
 	public int getCurrentAmount(){
 		return b.amount;
 	}
-	
-	
 	
 }
