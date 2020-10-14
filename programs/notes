@@ -3,9 +3,37 @@ methods
 ========
 static methods can call in instance methods directly.
 instance methods cannot call in static method directly. we can call thourgh object only.
+static methods can call in static method directly;
+instance methods can call in instance method directly;
 
 variables
 =========
 static variables can access in instance method directly;
 instance variables cannot access in static methods directly. we can access thourgh object only.
+
+
+packages
+Arrays
+opps
+	abstraction
+	inheritence
+	polymorphism
+	encapsulation
+Exception handling
+data structures
+
+
+javac -d bin -cp bin Methods/InstanceMethods/*.javac
+
+-d	->		distination directory (where to generate class files)
+-cp		->		class path (the path(or directory) where class files exist);
+
+
+we should run the class , which is having main method
+
+
+public - class, method(static, instance), variable(static, instance), constructor	-	global 
+private -  method(static, instance), variable(static, instance), constructor	-	within the class
+protected - class, method(static, instance), variable(static, instance), constructor -	within the package
+default
 

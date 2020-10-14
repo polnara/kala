@@ -1,4 +1,3 @@
-package Methods.Constructor;
 class Student{
 
 	String name;

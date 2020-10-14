@@ -1,5 +1,4 @@
-package bank;
-public class calculatorbase{
+class calculatorbase{
     public int result;
 
     public calculatorbase(int result){
